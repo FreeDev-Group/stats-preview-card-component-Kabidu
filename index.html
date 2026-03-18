@@ -1,52 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
   <main class="card">
-    <section class="card__content">
-      <h1 class="card__title">Get insights that help your business grow.</h1>
-      <p class="card__description">
-        Discover the benefits of data analytics and make better decisions regarding revenue, 
-        customer experience, and overall efficiency.
+    <div class="card-image"></div>
+    <div class="card-content">
+      <h1 class="title">Get <span class="accent">insights</span> that help your business grow.</h1>
+      <p class="description">
+        Discover the benefits of data analytics and make better decisions
+        regarding revenue, customer experience, and overall efficiency.
       </p>
-      <div class="card__stats">
-        <div class="stat">
-          <span class="stat__number">10k+</span>
-          <span class="stat__label">companies</span>
+      <div class="stats-container">
+        <div class="stat-item">
+          <h2>10k+</h2>
+          <p>COMPANIES</p>
         </div>
-        <div class="stat">
-          <span class="stat__number">314</span>
-          <span class="stat__label">templates</span>
+        <div class="stat-item">
+          <h2>314</h2>
+          <p>TEMPLATES</p>
         </div>
-        <div class="stat">
-          <span class="stat__number">12m+</span>
-          <span class="stat__label">queries</span>
+        <div class="stat-item">
+          <h2>12M+</h2>
+          <p>QUERIES</p>
         </div>
       </div>
-    </section>
-
-    <section class="card__image">
-      <img src="./images/image-header-desktop.jpg" alt="Business team working">
-    </section>
+    </div>
   </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Kabidu Munguakonkwa Sage</a>.
   </div>
-</body>
+</body>-->
+
 </html>
