@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![alt text](screenshoot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/pulsevista-3awML1Mqd3)
+- Live Site URL: [Add live site URL here](https://freedev-group.github.io/stats-preview-card-component-Kabidu/)
 
 ## My process
 
